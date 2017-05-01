@@ -1,0 +1,48 @@
+@import(OperatorMono.css);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: auto;
+	border:20px solid #bdc3c7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 1.2em auto;
+}
+h2 {
+	font-family: Operator Mono Medium;
+	color: #2c3e50;
+}
+.post {
+	margin-bottom: 2em;
+}
+.quote {
+	border-left:5px solid #bdc3c7;
+	padding-left: .75em;
+}
+
+.date {
+	font-family: Operator Mono Bold;
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+/* Flaired edges, by Tomas Theunissen */
+
+hr {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
