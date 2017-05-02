@@ -2,25 +2,96 @@
 <html>
 <head>
 	<title>Responsive Image Gallery</title>
-	<style type="text/css">
-		img {
-	width: 30%;
-	float: left;
-	margin: 1.66%
-}
-	</style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
 </head>
 <body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      		</button>
+      		<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture"></span> IMGS</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-nav-demo">
+			<ul class="nav navbar-nav">
+        	<li class="active"><a href="#">About</a></li>
+        	<li><a href="#">Contact</a></li>
+        	</ul>
+        	<ul class="nav navbar-nav navbar-right">
+        		<li><a href="#">Sign Up</a></li>
+        		<li><a href="#">Login</a></li>
+        	</ul>
+		</div>
+	</div>
+</nav>
+<div class="container">
+	<div class="jumbotron">
+		<h1><i class="fa fa-camera-retro"></i> The Image gallary</h1>
+		<p>Need to write somthing about this gallary.None of these are taken by me.</p>
+	</div>
 
-<img src="img/qK42fUu.jpg">
-<img src="img/photo-1435771112039-1e5b2bcad966.jpg">
-<img src="img/photo-1442406964439-e46ab8eff7c4.jpg">
-<img src="img/photo-1439524970634-649c37a69e5c.jpg">
-<img src="img/photo-1444090542259-0af8fa96557e.jpg">
-<img src="img/photo-1434543177303-ef2cc7707e0d.jpg">
-<img src="img/photo-1436262513933-a0b06755c784.jpg">
-<img src="img/photo-1439396087961-98bc12c21176.jpg">
-<img src="img/photo-1439694458393-78ecf14da7f9.jpg">
+	<div class="row">
+		<div class="col-lg-4 col-md-6 col-sm-6">
+			<div class="thumbnail">
+				<img src="img/qK42fUu.jpg">
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-6">
+			<div class="thumbnail">
+				<img src="img/photo-1435771112039-1e5b2bcad966.jpg">
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-6">
+			<div class="thumbnail">
+				<img src="img/photo-1442406964439-e46ab8eff7c4.jpg">
+			</div>
+		</div>
+	
+	
+		<div class="col-lg-4 col-md-6 col-sm-6">
+			<div class="thumbnail">
+				<img src="img/photo-1434543177303-ef2cc7707e0d.jpg">
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-6">
+			<div class="thumbnail">
+				<img src="img/photo-1444090542259-0af8fa96557e.jpg">
+
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-6">
+			<div class="thumbnail">
+				<img src="img/photo-1439524970634-649c37a69e5c.jpg">
+
+			</div>
+		</div>
+	
+		<div class="col-lg-4 col-md-6 col-sm-6">
+			<div class="thumbnail">
+				<img src="img/photo-1436262513933-a0b06755c784.jpg">
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-6">
+			<div class="thumbnail">
+				<img src="img/photo-1439396087961-98bc12c21176.jpg">
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 col-sm-6 ">
+			<div class="thumbnail">
+				<img src="img/photo-1439694458393-78ecf14da7f9.jpg">			
+			</div>
+		</div>
+	</div>
+</div>
 
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
 </html>
