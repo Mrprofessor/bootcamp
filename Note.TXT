@@ -18,3 +18,10 @@ false
 null
 undefined
 
+//DOM MANIPULATION
+//SELECT AND MANIPULATE
+getElementById();
+getElementsByClassName();
+getElementByTagName();
+querySelector();
+querySelectorAll();
