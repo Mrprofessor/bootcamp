@@ -35,10 +35,10 @@ classList.toggle();
 $(select).css("property","value"); //Also can add objects
 //
 //Common Query methods
-1.val()
-2.text()
+1.val()  //
+2.text()  //textContent
 3.attr()
-4.html()
+4.html()  //innerHtml
 5.addClass()
 6.removeClass()
 7.toggleClass()
