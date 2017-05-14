@@ -25,3 +25,7 @@ getElementsByClassName();
 getElementByTagName();
 querySelector();
 querySelectorAll();
+
+classList.add();
+classList.remove();
+classList.toggle();
