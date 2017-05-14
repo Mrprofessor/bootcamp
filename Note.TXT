@@ -29,3 +29,16 @@ querySelectorAll();
 classList.add();
 classList.remove();
 classList.toggle();
+
+
+**jQuery
+$(select).css("property","value"); //Also can add objects
+//
+//Common Query methods
+1.val()
+2.text()
+3.attr()
+4.html()
+5.addClass()
+6.removeClass()
+7.toggleClass()
