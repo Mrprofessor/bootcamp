@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Changer</title>
+	<style type="text/css">
+		.purple {
+			background: purple;
+		}
+	</style>
+</head>
+<body>
+<h1>Color Toggle</h1>
+<p>Click on the button to see whether something happens or not.</p>
+
+<button>Click me.!</button>
+
+
+<script type="text/javascript">
+	var btn = document.querySelector("button");
+	var bodyColor = document.body.style.background;
+
+	// btn.addEventListener("click",function changeColor() {
+		
+	// 	if(bodyColor != "green"){
+	// 		bodyColor = "green";
+	// 		console.log("changing color");
+	// 	}
+	// 	else{
+	// 		bodyColor = "white";
+	// 	}
+	// });
+
+	btn.addEventListener("click",function changeColor() {
+		document.body.classList.toggle("purple");
+	});
+
+	
+
+</script>
+</body>
+</html>
