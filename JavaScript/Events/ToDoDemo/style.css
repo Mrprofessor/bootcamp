@@ -1,0 +1,12 @@
+html {
+	margin: 2em;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.selected {
+	color : green;
+}
+.done {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
