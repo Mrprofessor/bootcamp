@@ -33,9 +33,11 @@ function setUpSquares() {
 		//Click event for the squares
 		squares[i].addEventListener("click", function() {
 			//Grab the color of the square
-			var clickedColor = this.style.background;
+			var clickedColor = this.style["background-color"];
+			// console.log(clickedColor+ " == " +pickedColor);
 			//Compare color to picked color
 			if(clickedColor === pickedColor) {
+
 				changeColors(clickedColor);
 				messageDisplay.textContent = "Correct";
 				resetButton.textContent = "Play again?";
