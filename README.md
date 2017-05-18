@@ -1,2 +1,2 @@
 # bootcamp
-The Web Developer Bootcamp practice
+The Web Developer Bootcamp practice.
