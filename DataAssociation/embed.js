@@ -11,7 +11,6 @@ var postSchema = new mongoose.Schema({
 var Post = mongoose.model('Post', postSchema);
 
 
-
 // USER  -email, name
 var userSchema = new mongoose.Schema({
 	email : String,
@@ -37,7 +36,7 @@ var User = mongoose.model('User', userSchema);
 // 	} else {
 // 		console.log(user);
 // 	}
-// });
+//});
 
 // var newPost = new Post ({
 // 	title : "Refections on apples",
@@ -50,7 +49,7 @@ var User = mongoose.model('User', userSchema);
 // 	} else {
 // 		console.log(post);
 // 	}
-// });
+//});
 
 // User.findOne({name : "Hermione Granger"}, function(err, user){
 // 	if (err) {
@@ -67,5 +66,5 @@ var User = mongoose.model('User', userSchema);
 // 				console.log(user);
 // 			}
 // 		});
-// 	}
+// 	  }
 // });
